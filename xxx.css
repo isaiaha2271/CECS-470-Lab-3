@@ -1,0 +1,48 @@
+/* Change background and font */
+body {
+  background-color: #f4f6f8;
+  font-family: Verdana, Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Change heading colors */
+h1 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+h2 {
+  color: #0066cc;
+}
+
+/* Change paragraph styling */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Style lists */
+ul,
+ol {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Style links */
+a {
+  color: #cc0000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Image styling */
+img {
+  display: block;
+  margin: 15px auto;
+  width: 200px;
+}
