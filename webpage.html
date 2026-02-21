@@ -1,109 +1,89 @@
+<!doctype html>
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Our webpage</title>
-    <link rel="stylesheet" href="xxx.css"> 
+    <title>Our Webpage</title>
+    <link rel="stylesheet" href="xxx.css" />
   </head>
+
   <body>
-    <h1>Welcome to Isaiah Ameho and Krisha Hemani Homepage!</h1>
-    <div>
-      <h2>Group Members:</h2>
-      <ul>
-        <li>Isaiah Ameho</li>
-        <li>Krisha Hemani</li>
+    <!-- ================= FLEXBOX NAVIGATION ================= -->
+    <header class="navbar">
+      <div class="logo">CECS 470 Homepage</div>
+      <ul class="nav-links">
+        <li>Home</li>
+        <li>Members</li>
+        <li>Classes</li>
+        <li>Contact</li>
       </ul>
-      <p>Hi, this is the webpage of our 470 Lab3 Assignment</p>
-      <br />
+    </header>
 
+    <h1>Welcome to Isaiah Ameho and Krisha Hemani Homepage!</h1>
 
-      <div>
-        <h1> Isaiah Ameho:</h1>
-        <p>Isaiah is a <b>4th year computer science student at CSULB</b>. Some hobbies he
-        enjoys are reading, playing basketball, and programming.</p>
+    <!-- ================= GRID LAYOUT ================= -->
+    <section class="grid-container">
+      <div class="card">
+        <h2>Isaiah Ameho</h2>
+        <p>
+          Isaiah is a 4th year computer science student at CSULB. He enjoys
+          reading, playing basketball, and programming.
+        </p>
 
-        <p>Something interesting about my classmate Krisha is originally from india but has lived in California throughout
-          her life.</p>
-        <p>List of Classes: </p>
-        <select name="List of Classes">
-            <optgroup label = "Isaiah List of Classes">
-                <option> CECS 458 - Deep Learning</option>
-                <option> CECS 475 - Software Dev With Frameworks</option>
-                <option> CECS 491B -  Senior Project</option>
-                <option> CECS 470 -  Web Programming</option>
-                <option> CECS 478 -  Intro To Comp Sec.</option>
-            </optgroup>
-          </select>
-
-          <br>
-
-          <p>Favourite books:</p>
-          <select>
-            <optgroup label = "Favourite books">
-              <option> Brother Karamazov</option>
-              <option> Ghost in the Wires</option>
-              <option> Crime and Punishment</option>
-            </optgroup>
-          </select>
-        
-
+        <p><b>Favourite Books:</b></p>
+        <ul>
+          <li>Brother Karamazov</li>
+          <li>Ghost in the Wires</li>
+          <li>Crime and Punishment</li>
+        </ul>
       </div>
 
-
-      <br>
-
-      <div>
-        <h1> Krisha Hemani</h1>
+      <div class="card">
+        <h2>Krisha Hemani</h2>
         <p>
-          My name is <b>Krisha Hemani</b>. I am a
-          <b>Computer Science student</b>
-          at CSULB with an interest in ML/AI , software engineering, and web
-          development. Krisha enjoys playing badminton and she is from india which made me more instrest about that contry , which makes class discussions more fun.Isaiah provided the html code listing his the classes, description of himself, and his favoruite books.</p>
-        <p> Something interesting about my classmate Isaiah is he plays basketball and enjoys watching sports.</p>
+          Krisha is a Computer Science student at CSULB interested in ML/AI,
+          software engineering, and web development.
+        </p>
 
+        <p><b>Favourite Movies:</b></p>
+        <ul>
+          <li>Antman</li>
+          <li>Spiderman</li>
+          <li>Iron Man</li>
+        </ul>
+      </div>
 
-      
-     
+      <div class="card">
+        <h2>Isaiah Classes</h2>
+        <ul>
+          <li>CECS 458 - Deep Learning</li>
+          <li>CECS 475 - Software Dev With Frameworks</li>
+          <li>CECS 491B - Senior Project</li>
+          <li>CECS 470 - Web Programming</li>
+          <li>CECS 478 - Intro To Comp Sec.</li>
+        </ul>
+      </div>
 
-      <p>List of Classes: </p>
-      <select>
-            <optgroup label = "Krisha List of Classes">
-                  <option> CECS 470 - Web Programming</option>
-                  <option> CECS 457 - Applied machine learning</option>
-                  <option> CECS 491B - Senior Project</option>
-              </optgroup>
-        </select>
+      <div class="card">
+        <h2>Krisha Classes</h2>
+        <ul>
+          <li>CECS 470 - Web Programming</li>
+          <li>CECS 457 - Applied Machine Learning</li>
+          <li>CECS 491B - Senior Project</li>
+        </ul>
+      </div>
+    </section>
 
-
-        <p> Favourites:</p>
-        <select name="Favourite">
-            <optgroup label = "Krisha favourite movies">
-                <option> Antman</option>
-                <option> Spiderman</option>
-                <option> Iron man</option>
-            </optgroup>
-          </select>
-        
-    </div>
-
-      <br>
-
- 
-
-    <div>
-      <h1>Thank you for Visiting our page</h1>
-
-
-
+    <!-- ================= CONTRIBUTIONS ================= -->
+    <section class="contributions">
       <h2>Contributions</h2>
-    
-        
-      
-      <p>Isaiah provided the html code listing his the classes, description of himself, and his favoruite books. He also restructred the webpages elements</p>
       <p>
-        Krisha provided the basic structure of the html code and wrote about
-        herself, she also made some edits to the webpage, she also added the her
-        own contributions and created teh css page.
+        Isaiah Ameho – Provided HTML content for his biography, classes, and
+        favorite books. Helped restructure webpage elements.
       </p>
-    </div>
+      <p>
+        Krisha Hemani – Created CSS styling, implemented Flexbox navigation,
+        Grid layout structure, and added animations and hover transitions.
+      </p>
+    </section>
   </body>
 </html>
